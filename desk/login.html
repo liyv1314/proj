@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="./favicon.ico">
+	<title>Desk.com - Find Your Login Page</title>
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body class="minimal small">
+
+<div id="flash" class="flash_html flash_ajax" style="display: none;">
+	<div class="agent_notifier_msg a-flash flash_notice">
+
+
+	</div>
+
+</div>
+<div id="stage" class="minimal login register">
+	<div id="page" class="">
+		<header id="header">
+			<div class="container">
+
+				<h1 class="logo">
+					<a href="http://www.desk.com" title="Desk.com">
+								<span>
+									Desk
+								</span>
+					</a>
+				</h1>
+				<nav id="navigation" class="navigation"></nav>
+			</div>
+		</header>
+
+
+		<section class="pod">
+			<div class="container">
+				<p class="nomargin-bottom message-text">
+					Help us find your login page! Enter your site address and we'll take you to your login page.
+				</p>
+				<form accept-charset="UTF-8" action="/login/retrieve/site" class="clearfix single_field" id="find_site" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="QkM7NxQaHz726lBjZDq1DT8laybF7/cyXY1us8SRcLU="></div>
+
+					<div class="row controls">
+						<div class="input-append span2">
+							<div>
+								<input class="site_subdomain" id="site_subdomain" maxlength="50" name="site[subdomain]" placeholder="e.g. my-company" size="50" type="text">
+							</div>
+							<div class="add-on"><div>.desk.com</div></div>
+						</div>
+					</div>
+					<div class="pod-footer">
+						<div class="btn-toolbar btn-large-container">
+							<input class="btn btn-flat btn-twitter-blue btn-large" id="site_submit" name="commit" type="submit" value="Continue">
+						</div>
+						<div class="bottom-link">
+							<a href="/login/email">Don't remember your site address?</a>
+						</div>
+					</div>
+				</form>	</div>
+		</section>
+
+		<div class="fine-print-bottom">
+			I agree to Desk.com's <a href="http://www.desk.com/terms" target="_blank">Terms of Use</a> and <a href="http://www.desk.com/privacy" target="_blank">Privacy Policy.</a>
+			<a href="http://support.desk.com/" target="_blank">Get help from our support team.</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>

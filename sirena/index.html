@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>sirena</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/sirena.css">
+	<link href="iconfont/material-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css">
+</head>
+<body>
+	<div id="mask" style="position: fixed;width: 100%;height: 100%;z-index: 99;background: black;opacity: 0.5;display: none;"></div>
+	<header id="g-header" class="headroom" style="display: block;">
+		<div class="g-header-wrap">
+			<div class="g-header-logo" id="g-header-logo">
+				<a href=""><img src="img/V1.png" alt="" id="head-logo"></a>
+			</div>
+			<div class="g-header-nav">
+				<div class="g-header-nav-main">
+					<ul class="g-header-nav-list" id="g-header-nav-list">
+						<li class="home">
+							<a href="">
+								<span>HOME</span>
+							</a>
+							<div class="line"></div>
+						</li>
+						<li class="features">
+							<a href="">
+								<span>FEATURES</span>
+								<i class="material-icons">keyboard_arrow_down</i>
+							</a>
+							<div class="line"></div>
+							<ul id="sub-features" style="height: 0;">
+								<li><a href=""><span>HOMEPAGES</span></a></li>
+								<li><a href=""><span>DEFAULT</span></a></li>
+								<li><a href=""><span>SOCIAL NETWORK</span></a></li>
+								<li><a href=""><span>BUSINESS</span></a></li>
+								<li><a href=""><span>APP</span></a></li>
+							</ul>
+						</li>
+						<li class="elements">
+							<a href="">
+								<span>ELEMENTS</span>
+								<i class="material-icons">keyboard_arrow_down</i>
+							</a>
+							<div class="line"></div>
+							<ul id="sub-elements" style="height: 0;">
+								<li><a href=""><span>GRAPHICS/ICONS</span></a></li>
+								<li><a href=""><span>ICON LISTS</span></a></li>
+								<li><a href=""><span>ICON BOXES</span></a></li>
+								<li><a href=""><span>COUNTERS</span></a></li>
+								<li><a href=""><span>PROGRESS BARS</span></a></li>
+							</ul>
+						</li>
+						<li class="community">
+							<a href="">
+								<span>COMMUNITY BUILDER</span>
+								<i class="material-icons">keyboard_arrow_down</i>
+							</a>
+							<div class="line"></div>
+							<ul id="sub-community" style="height: 0;">
+								<li><a href=""><span>ACTIVITY</span></a></li>
+								<li><a href=""><span>GROUPS</span></a></li>
+								<li><a href=""><span>LOGIN</span></a></li>
+								<li><a href=""><span>FORGOT LOGIN</span></a></li>
+								<li><a href=""><span>REGISTRATION</span></a></li>
+							</ul>
+						</li>
+						<li class="kunena">
+							<a href="">
+								<span>KUNENA</span>
+							</a>
+							<div class="line"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<script src="js/subnav2.js"></script>
+
+			<div class="g-header-icon">
+				<ul class="g-header-icon-list" id="g-header-icon-list">
+					<li class="search">
+						<div><i class="material-icons">search</i></div>
+					</li>
+					<li class="person">
+						<div><i class="material-icons">person_outline</i></div>
+					</li>
+					<li class="share">
+						<div><i class="material-icons" style="font-size: 20px;padding-top: 2px;">share</i></div>
+					</li>
+					<li class="public">
+						<div><i class="material-icons" style="font-size: 22px;padding-top: 1px;">public</i></div>
+					</li>
+					<li class="menu">
+						<div><i class="material-icons">sort</i></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<script src='js/nav.js'></script>
+
+	<section id="g-full-width-section-1">
+		<div id="lunbo">
+			<ul style="margin-left: -1356px;">
+				<li><img src="img/03.jpg" alt=""></li>
+				<li><img src="img/01.jpg" alt=""></li>
+				<li><img src="img/02.jpg" alt=""></li>
+				<li><img src="img/03.jpg" alt=""></li>
+			</ul>
+			<div id="leftBtn">&lt;</div>
+			<div id="rightBtn">&gt;</div>
+		</div>
+		<ul id="btnlist">
+			<li class="act"></li>
+        	<li></li>
+       		<li></li>
+		</ul>
+	</section>
+	<script src='js/lunbo.js'></script>
+
+	<section id="g-full-width-section-2">
+		<div id="sign-up">
+			<div class="sign-up-content">
+				<p>
+					WE CREATE HIGH QUALITY PRODUCTS THAT ARE USED ANDLOVED BY THOUSANDS OF CUSTOMERS
+				</p>
+				<div class="button" id="sign-up-button">SIGN UP</div>
+			</div>
+		</div>
+		<div class="zhuce" id="zhuce" style="display: none;">
+					<div style="height: 50px;width: 100%;background: #673ab7;color: white;font-size: 24px;text-align: center;">SIGN UP
+						<i style="float: right;display: block;line-height: 50px;margin-right: 10px;cursor: pointer;" id="zhuce-close" class="material-icons">close</i>
+					</div>
+					<div id="zhuce-wrap">
+						<form action="表单验证1.html" method="get" name="myform">
+							<div>
+								<span>user</span>
+								<input type="text" name="uid" value="">
+								<p style="height: 40px;"></p>
+							</div>
+							<div>
+								<span>password</span>
+								<input type="password" name="pwd" value="" autocomplete="off">
+								<p></p>
+								<ul>
+									<span>weak</span>
+									<span>middle</span>
+									<span>hard</span>
+								</ul>
+							</div>
+							<div>
+								<span>tel</span>
+								<input type="text" name="tel" value="">
+								<p></p>
+							</div>
+							<div>
+								<span>email</span>
+								<input type="text" name="email" value="">
+								<p></p>
+							</div>
+							<div style="margin-top: 25px;">
+								<input type="reset" value="reset" class="zhuce-btn1" id="zhuce-reset">
+								<input type="submit" value="submit" name="myreset" class="zhuce-btn2">
+							</div>
+						</form>
+					</div>
+				</div>
+		<script src='js/zhuce.js'></script>
+
+		<div id="advantage">
+			<div class="advantage-content">
+				<h1>We help brands stand out from the crowd</h1>
+				<h5>and succeed with our creativity and intelligence.</h5>
+				<div class="desc" id="icon-wrap">
+					<div>
+						<div class="icon">
+							<i class="material-icons">headset_mic</i>
+						</div>
+						<div class="header">Support 24/7</div>
+						<div class="descr">Phasellus in elementumphasellus, tortor dolor. Tincidunt magnispulvinar, hac!</div>
+						<a href="">Learn More</a>
+					</div>
+					<div>
+						<div class="icon">
+							<i class="material-icons">thumb_up</i>
+						</div>
+						<div class="header">High Quality</div>
+						<div class="descr">Phasellus in elementumphasellus, tortor dolor. Tincidunt magnispulvinar, hac!</div>
+						<a href="">Learn More</a>
+					</div>
+					<div>
+						<div class="icon">
+							<i class="material-icons">pages</i>
+						</div>
+						<div class="header">Multi-Purpose</div>
+						<div class="descr">Phasellus in elementumphasellus, tortor dolor. Tincidunt magnispulvinar, hac!</div>
+						<a href="">Learn More</a>
+					</div>
+					<div>
+						<div class="icon">
+							<i class="material-icons">view_carousel</i>
+						</div>
+						<div class="header">Tons of Pages</div>
+						<div class="descr">Phasellus in elementumphasellus, tortor dolor. Tincidunt magnispulvinar, hac!</div>
+						<a href="">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jump.js"></script>
+
+		<div id="agency">
+			<div class="agency-mask"></div>
+			<div class="agency-content">
+				<h1>We Are The Agency Of The Year</h1>
+				<h5>Over 20 years of consultancy experience</h5>
+				<div class="agency-content-descs">
+					<div class="agency-content-desc">
+						<div class="num" style="color: rgb(254, 60, 255);">1273</div>
+						<div class="sep" style="background: rgb(254, 60,255);"></div>
+						<div class="text">CLIENTS SERVED</div>
+					</div>
+					<div class="agency-content-desc">
+						<div class="num" style="color: rgb(255, 76, 63);">4373</div>
+						<div class="sep" style="background: rgb(255, 76, 6);"></div>
+						<div class="text">CLIENTS SERVED</div>
+					</div>
+					<div class="agency-content-desc">
+						<div class="num" style="color: rgb(54, 166, 255);">9595</div>
+						<div class="sep" style="background: rgb(54, 166,255);"></div>
+						<div class="text">CLIENTS SERVED</div>
+					</div>
+					<div class="agency-content-desc" style="margin-right: 0;">
+						<div class="num" style="color: rgb(145, 255, 145);">7690</div>
+						<div class="sep" style="background: rgb(145, 255,145);"></div>
+						<div class="text">CLIENTS SERVED</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="grade">
+			<div class="grade-content">
+				<h1>Our Portfolio</h1>
+				<h5>Excepteur sint occaecat cupidatat non proident.</h5>
+				<div class="photos">
+					<div class="toolbar">
+						<div class="toolbar-left">
+							<button>ALL</button>
+							<button>WALLPAPER</button>
+							<button>GRAPHIC DESIGN</button>
+							<button>PHOTOS</button>
+							<button>3D renders</button>
+						</div>
+						<div class="toolbar-right">
+							<span class="palaceholder">
+								Default
+								<i class="fa fa-caret-down"></i>
+							</span>
+							<div class="options">
+								<ul>
+									<li><span>Default</span></li>
+									<li><span>Title</span></li>
+									<li><span>Date Created</span></li>
+								</ul>
+							</div>
+							<select>
+								<option value="default" selected="">
+									Default
+								</option>
+								<option value="title">
+									Title
+								</option>
+								<option value="date-created">
+									Date Created
+								</option>
+							</select>
+						</div>
+						<input type="search" placeholder="Search...">
+					</div>
+					<div class="works" id="works">
+						<div class="works-item">
+							<div class="control" style="margin-top: 0;">
+								<a href="">
+									<img src="img/work1.jpg" alt="">
+								</a>
+								<div class="caption">
+									LOREM <span>IPSUM</span>
+								</div>
+								<div class="text">When Goliath comes out, you should run.
+								</div>
+							</div>
+						</div>
+						<div class="works-item">
+							<div class="control">
+								<a href="">
+									<img src="img/work2.jpg" alt="">
+								</a>
+								<div class="caption">
+									RIDICULUS <span>HABITASSE</span>
+								</div>
+								<div class="text">When Goliath comes out, you should run.
+								</div>
+							</div>
+						</div>
+						<div class="works-item">
+							<div class="control">
+								<a href="">
+									<img src="img/work3.jpg" alt="">
+								</a>
+								<div class="caption">
+									ALIQUET <span>MAGNIS</span>
+								</div>
+								<div class="text">When Goliath comes out, you should run.
+								</div>
+							</div>
+						</div>
+						<div class="works-item">
+							<div class="control">
+								<a href="">
+									<img src="img/work4.jpg" alt="">
+								</a>
+								<div class="caption">
+									CRAS <span>FACILISIS</span>
+								</div>
+								<div class="text">When Goliath comes out, you should run.
+								</div>
+							</div>
+						</div>
+						<div class="works-item">
+							<div class="control">
+								<a href="">
+									<img src="img/work5.jpg" alt="">
+								</a>
+								<div class="caption">
+									LUNDIUM <span>IEMPOR</span>
+								</div>
+								<div class="text">When Goliath comes out, you should run.
+								</div>
+							</div>
+						</div>
+						<div class="works-item">
+							<div class="control">
+								<a href="">
+									<img src="img/work6.jpg" alt="">
+								</a>
+								<div class="caption">
+									PULVINAR <span>LACUS</span>
+								</div>
+								<div class="text">When Goliath comes out, you should run.
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<script src="js/works.js"></script>
+
+		<div id="team">
+			<div class="team-content">
+				<h1>Our Team</h1>
+				<h5>We’re The Nation Agency, a small design agency based in United States.</h5>
+				<div class="people"  id="people">
+					<div class="people-item">
+						<div class="people-item-main">
+							<img src="img/1.jpg" alt="">
+							<div class="id">	
+								<div class="name">
+									<b>Jane Doe</b>
+								</div>
+								<div class="pos">
+									SEO, founder
+								</div>
+								<ul style="display: none;">
+									<li>
+										<a href="">
+											<i class="fa fa-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<i class="fa fa-twitter"></i>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<i class="fa fa-google-plus"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="people-item">
+						<div class="people-item-main">
+							<img src="img/2.jpg" alt="">
+							<div class="id">	
+								<div class="name">
+									<b>Mark Johnson</b>
+								</div>
+								<div class="pos">
+									Co-founder
+								</div>
+								<ul style="display: none;">
+									<li>
+										<a href="">
+											<i class="fa fa-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<i class="fa fa-twitter"></i>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<i class="fa fa-google-plus"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="people-item">
+						<div class="people-item-main">
+							<img src="img/3.jpg" alt="">
+							<div class="id">	
+								<div class="name">
+									<b>Elisabeth Bowman</b>
+								</div>
+								<div class="pos">
+									Web designer
+								</div>
+								<ul style="display: none;">
+									<li>
+										<a href="">
+											<i class="fa fa-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<i class="fa fa-twitter"></i>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<i class="fa fa-google-plus"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="people-item">
+						<div class="people-item-main">
+							<img src="img/4.jpg" alt="">
+							<div class="id">	
+								<div class="name">
+									<b>Jane Lee</b>
+								</div>
+								<div class="pos">
+									Developer
+								</div>
+								<ul style="display: none;">
+									<li>
+										<a href="">
+											<i class="fa fa-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<i class="fa fa-twitter"></i>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<i class="fa fa-google-plus"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<script src="js/pic-zoom.js"></script>
+
+		<div id="test">
+			<div class="test-content">
+				<h1>Testimonials</h1>
+				<h5>Check out what our customers are saying about us</h5>
+				<div class="test-content-wrap" id="test-content-wrap">
+					<div>
+						<div class="test-content-item">
+							<div class="quote">
+								<i class="material-icons">format_quote</i>
+								 Pid pulvinar nascetur elementum rhoncus vel, placerat mattis, in diam tincidunt turpis mauris nunc porta vel, urna? Mus dapibus. Natoque scelerisque tincidunt. 
+							</div>
+							<div class="author">
+								<img src="img/head1.jpg" alt="">
+								<div class="name">Jane Doe</div>
+								<div class="pos">Executive Producer</div>
+							</div>
+						</div>
+					
+						<div class="test-content-item">
+							<div class="quote">
+								<i class="material-icons">format_quote</i>
+								 Pid pulvinar nascetur elementum rhoncus vel, placerat mattis, in diam tincidunt turpis mauris nunc porta vel, urna? Mus dapibus. Natoque scelerisque tincidunt. 
+							</div>
+							<div class="author">
+								<img src="img/head2.jpg" alt="">
+								<div class="name">Mark Johnson</div>
+								<div class="pos">Co-founder</div>
+							</div>
+						</div>
+					
+						<div class="test-content-item">
+							<div class="quote">
+								<i class="material-icons">format_quote</i>
+								 Pid pulvinar nascetur elementum rhoncus vel, placerat mattis, in diam tincidunt turpis mauris nunc porta vel, urna? Mus dapibus. Natoque scelerisque tincidunt. 
+							</div>
+							<div class="author">
+								<img src="img/head3.jpg" alt="">
+								<div class="name">Elisabeth Bowman</div>
+								<div class="pos">Web designer</div>
+							</div>
+						</div>
+					
+						<div class="test-content-item">
+							<div class="quote">
+								<i class="material-icons">format_quote</i>
+								 Pid pulvinar nascetur elementum rhoncus vel, placerat mattis, in diam tincidunt turpis mauris nunc porta vel, urna? Mus dapibus. Natoque scelerisque tincidunt. 
+							</div>
+							<div class="author">
+								<img src="img/head4.jpg" alt="">
+								<div class="name">Jane Lee</div>
+								<div class="pos">Developer</div>
+							</div>
+						</div>
+					
+						<div class="test-content-item">
+							<div class="quote">
+								<i class="material-icons">format_quote</i>
+								 Pid pulvinar nascetur elementum rhoncus vel, placerat mattis, in diam tincidunt turpis mauris nunc porta vel, urna? Mus dapibus. Natoque scelerisque tincidunt. 
+							</div>
+							<div class="author">
+								<img src="img/head5.jpg" alt="">
+								<div class="name">Larry Howard</div>
+								<div class="pos">Marketing Representative</div>
+							</div>
+						</div>
+					
+						<div class="test-content-item">
+							<div class="quote">
+								<i class="material-icons">format_quote</i>
+								 Pid pulvinar nascetur elementum rhoncus vel, placerat mattis, in diam tincidunt turpis mauris nunc porta vel, urna? Mus dapibus. Natoque scelerisque tincidunt. 
+							</div>
+							<div class="author">
+								<img src="img/head6.jpg" alt="">
+								<div class="name">Selena Sanchez</div>
+								<div class="pos">Technical Director</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="test-content-control">
+					<div id="test-content-control">
+						<div class="point active">
+							<span></span>
+						</div>
+						<div class="point">
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/transTab.js"></script>
+
+		<div id="clients">
+			<div class="clients-content">
+				<h1>Our Lovely Clients</h1>
+				<div class="clients-content-items" id="clients-content-items">
+					<div class="clients-content-item">
+						<div>
+							<a>
+								<img src="img/1_light.png" alt="">
+							</a>
+							<a>
+								<img src="img/1_light.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="clients-content-item">
+						<div>
+							<a>
+								<img src="img/2_light.png" alt="">
+							</a>
+							<a>
+								<img src="img/2_light.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="clients-content-item">
+						<div>
+							<a>
+								<img src="img/3_light.png" alt="">
+							</a>
+							<a>
+								<img src="img/3_light.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="clients-content-item">
+						<div>
+							<a>
+								<img src="img/4_light.png" alt="">
+							</a>
+							<a>
+								<img src="img/4_light.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="clients-content-item">
+						<div>
+							<a>
+								<img src="img/5_light.png" alt="">
+							</a>
+							<a>
+								<img src="img/5_light.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="clients-content-item">
+						<div>
+							<a>
+								<img src="img/6_light.png" alt="">
+							</a>
+							<a>
+								<img src="img/6_light.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="clients-content-item">
+						<div>
+							<a>
+								<img src="img/7_light.png" alt="">
+							</a>
+							<a>
+								<img src="img/7_light.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="clients-content-item">
+						<div>
+							<a>
+								<img src="img/8_light.png" alt="">
+							</a>
+							<a>
+								<img src="img/8_light.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="clients-content-item">
+						<div>
+							<a>
+								<img src="img/9_light.png" alt="">
+							</a>
+							<a>
+								<img src="img/9_light.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="clients-content-item">
+						<div>
+							<a>
+								<img src="img/10_light.png" alt="">
+							</a>
+							<a>
+								<img src="img/10_light.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src='js/updown2.js'></script>
+	</section>
+	<footer id="g-footer">
+		<div class="bg-image"></div>
+		<div>
+			<div class="footer1">
+				<div>
+					<div class="logo">
+						<div>
+							<a href="">
+								<img src="img/V1.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="desc">
+						<h3>JF SIRENA</h3>
+						Amazing Multi-Purpose Joomla Material Design Template for outstanding websites.
+						<br />
+						<br />
+						<a href="">GET STARTED NOW.</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer2">
+				<div>
+					<div class="contact">
+						<h6>CONTACT INFO</h6>
+						<ul class="ul-mid">
+							<li>
+								<i class="material-icons">location_city</i> Your Company
+							</li>
+							<li>
+								<i class="material-icons">pin_drop</i> 123 Wall Street, New York</li>
+							<li>
+								<i class="material-icons">phone</i> + 1 (234) 567-8900
+							</li>
+							<li>
+								<i class="material-icons">access_time</i> 24/7 Service
+							</li>
+							<li>
+								<i class="material-icons">email</i> <a style="color: white;">info@yourmail.com</a>
+							</li>
+						</ul>
+						<ul class="ul-bot">
+							<li><a href=""><i class="fa fa-facebook default"></i></a></li>
+							<li><a href=""><i class="fa fa-twitter default"></i></a></li>
+							<li><a href=""><i class="fa fa-google-plus default"></i></a></li>
+							<li><a href=""><i class="fa fa-youtube-play default"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer3">
+				<div>
+					<div class="inc">
+						<h6>COMPANY</h6>
+						<ul>
+							<li>
+								<a href="#">
+									<i class="material-icons">keyboard_arrow_right</i>
+									TOUR
+								</a>
+							</li>
+							<li><a href="#">
+									<i class="material-icons">keyboard_arrow_right</i>
+									CUSTOMERS
+								</a>
+							</li>
+							<li><a href="#" >
+									<i class="material-icons">keyboard_arrow_right</i>
+									PRICING & PLANS
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="material-icons">keyboard_arrow_right</i>
+									CAREERS
+								</a>
+							</li>
+							<li><a href="#">
+									<i class="material-icons">keyboard_arrow_right</i>
+									PRESS RELEASES
+								</a>
+							</li>
+							<li><a href="#" >
+									<i class="material-icons">keyboard_arrow_right</i>
+									INVESTORS
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="material-icons">keyboard_arrow_right</i>
+									AWARDS
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer4">
+				<div>
+					<div class="recent">
+						<h6>RECENT WORK</h6>
+						<ul id="footer4-pics">
+							<li>
+								<a href=""><img src="img/footer1_thumb.jpg" alt=""></a>
+								<div></div>
+							</li>
+							<li>
+								<a href=""><img src="img/footer2_thumb.jpg" alt=""></a>
+								<div></div>
+							</li>
+							<li>
+								<a href=""><img src="img/footer3_thumb.jpg" alt=""></a>
+								<div></div>
+							</li>
+							<li>
+								<a href=""><img src="img/footer4_thumb.jpg" alt=""></a>
+								<div></div>
+							</li>
+							<li>
+								<a href=""><img src="img/footer5_thumb.jpg" alt=""></a>
+								<div></div>
+							</li>
+							<li>
+								<a href=""><img src="img/footer6_thumb.jpg" alt=""></a>
+								<div></div>
+							</li>
+							<li>
+								<a href=""><img src="img/footer7_thumb.jpg" alt=""></a>
+								<div></div>
+							</li>
+							<li>
+								<a href=""><img src="img/footer8_thumb.jpg" alt=""></a>
+								<div></div>
+							</li>
+							<li>
+								<a href=""><img src="img/footer9_thumb.jpg" alt=""></a>
+								<div></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<script src='js/footer4-pics.js'></script>
+		</div>
+	</footer>
+	<section id="g-bottom-footer">
+		<div class="g-bottom-footer-content">
+			<div class="left">
+				<div class="left-main">
+					<div class="copyright">
+						COPYRIGHT © 2011 - 2016 JOOMFOREST.COM.<br />
+						ALL RIGHTS RESERVED.
+					</div>
+				</div>
+			</div>
+			<div class="mid">
+				<div class="mid-main">
+					<a href="">
+						<img src="img/joomforest.png" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="right">
+				<div class="right-main">
+					<ul class="nav">
+						<li>
+							<a href="#">
+								<i class="material-icons">keyboard_arrow_right</i>
+								Terms
+							</a>
+						</li>
+						<li><a href="#">
+								<i class="material-icons">keyboard_arrow_right</i>
+								Privacy
+							</a>
+						</li>
+						<li><a href="#" >
+								<i class="material-icons">keyboard_arrow_right</i>
+								Legal
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="material-icons">keyboard_arrow_right</i>
+								Support
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
